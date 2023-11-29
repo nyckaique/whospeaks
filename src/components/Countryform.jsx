@@ -29,7 +29,7 @@ export default function Countryform({ buscaPaises, inputText, addInput }) {
             >
               <TextField
                 id="standard-basic"
-                label="Input an language"
+                label="Input a language"
                 variant="standard"
                 fullWidth
                 value={inputText}
