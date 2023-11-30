@@ -52,7 +52,7 @@ export default function Home() {
     event.preventDefault();
     //se o input for vazio, mostra um alert e retorna nada, encerrando a função
     if (input === "") {
-      alert("digite alguma coisa para buscar!");
+      alert("Select any language to search!");
       return;
     }
     //se o input nao for vazio, tenta fazer a requisição
@@ -65,7 +65,7 @@ export default function Home() {
       resetInput();
     } catch (e) {
       //se der erro na requisição, mostra um alerta e limpa o input
-      alert("Deu um erro na busca!");
+      alert("Error: something went worng. Please try again later.");
       resetInput();
     }
   }
@@ -76,8 +76,10 @@ export default function Home() {
 
       <div
         style={{
+          backgroundRepeat: "repeat",
+          backgroundAttachment: "fixed",
           backgroundColor: "rgba(0,0,0,0.05)",
-          height: "100vh",
+          minHeight: "100vh",
         }}
       >
         <Typography
