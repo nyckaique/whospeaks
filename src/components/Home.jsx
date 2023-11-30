@@ -94,7 +94,7 @@ export default function Home() {
             rel="noopener noreferrer"
             style={{ color: "inherit" }}
           >
-            Nycollas Kaíque
+            Nycollas Kaique
           </a>
         </Typography>
 
